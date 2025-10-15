@@ -1,6 +1,6 @@
 -- Generated with sanjuuni
 -- https://sanjuuni.madefor.cc
-do
+while true do
 local image, palette = {
     {
         "                                                                                                                                                                                                                                                                                                                                                       \145\129\142\145\144 \144 \143\143       \129\129\137\155\159\143\130\143\139\144        \131\143\130\143\159\143\143                                                                                                                 \143\143\159\143\131\131 \132               \130\143\132\131\132\143\132  \144                                                                                                                    \145\138                           ",
@@ -4272,6 +4272,7 @@ for y, r in ipairs(image) do
     term.setCursorPos(1, y)
     term.blit(table.unpack(r))
 end
+os.sleep(3)
 end
 sleep(0.04)
 read()
